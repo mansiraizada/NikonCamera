@@ -22,7 +22,7 @@ html, body{
     height: 8%;
 }
 
-#nav-brand i{
+.ri-menu-3-line{
     display: none;
 }
 
