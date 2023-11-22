@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+}
+
+#nav-brand{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8%;
+}
+
+#brand{
+    color: black;
+    background-image: url(./brand-icon.png);
+    width:80px;
+    height:40px;
+    background-size: cover;
+    margin-left: 20px;
+    margin-bottom: 12px;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px 20px 5px 20px;
+    gap: 20px;
+}
+
+nav h4:hover{
+    cursor: pointer;
+    font-weight: 600;
+}
+
+nav i {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+nav h4{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#center{
+    padding: 20px 80px;
+    height: 40%;
+}
+
+#center h1{
+    font-weight: 400;
+    line-height: 45px;
+    font-size: 40px;
+}
+
+#center-in{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+#center-in h5{
+    line-height: 20px;
+    font-weight: 300;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+#right{
+    width:20%
+}
+
+.ele{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0px;
+    font-size: 12px;
+    border-top: 2px solid #000;
+}
+
+.ele i{
+    opacity: 0;
+}
+
+.ele:hover i{
+    opacity: 1;
+}
+
+.ele:hover a{
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+#bottom{
+    height: calc(100% - (8% + 40%));
+    width: 100%;
+    background-image: url(./hero.png);
+    background-size: cover;
+    background-position: 0 50%;
+}
