@@ -159,7 +159,7 @@ nav{
 
 #center{
     padding: 10px 40px;
-    height: 40%;
+    height: 44%;
     width: 100%;
 }
 
@@ -213,7 +213,7 @@ a{
 }
 
 #bottom{
-    height: calc(100% - (8% + 40%));
+    height: calc(100% - (8% + 44%));
     width: 100%;
     background-image: url(./hero.png);
     background-size: cover;
