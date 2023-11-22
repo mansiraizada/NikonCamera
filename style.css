@@ -22,6 +22,10 @@ html, body{
     height: 8%;
 }
 
+#nav-brand i{
+    display: none;
+}
+
 #brand{
     color: black;
     background-image: url(./brand-icon.png);
@@ -118,4 +122,101 @@ a{
     background-image: url(./hero.png);
     background-size: cover;
     background-position: 0 50%;
+}
+
+@media (max-width: 600px){
+    #main{
+    height: 100%;
+    width: 100%;
+}
+
+#nav-brand{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8%;
+    width:100%;
+}
+
+#nav-brand i{
+    display: initial;
+    margin-right: 20px;
+}
+
+#brand{
+    color: black;
+    background-image: url(./brand-icon.png);
+    width:60px;
+    height:30px;
+    background-size: cover;
+    margin-left: 20px;
+    margin-bottom: 12px;
+}
+
+nav{
+    display: none;
+}
+
+#center{
+    padding: 10px 40px;
+    height: 40%;
+    width: 100%;
+}
+
+#center h1{
+    font-weight: 600;
+    line-height: 35px;
+    font-size: 28px;
+}
+
+#center-in{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+#center-in h5{
+    line-height: 20px;
+    font-weight: 300;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+#right{
+    width:35%;
+    padding-top: 15px;
+}
+
+.ele{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 0px;
+    font-size: 12px;
+    border-top: 2px solid #000;
+}
+
+.ele i{
+    opacity: 0;
+}
+
+.ele:hover i{
+    opacity: 1;
+}
+
+.ele:hover a{
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+#bottom{
+    height: calc(100% - (8% + 40%));
+    width: 100%;
+    background-image: url(./hero.png);
+    background-size: cover;
+    background-position: 40% 50%;
+}   
 }
